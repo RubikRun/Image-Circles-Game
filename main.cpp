@@ -1,9 +1,4 @@
-#include "Game.hpp"
-#include "CircularSet.hpp"
-
-#include <SFML/Graphics.hpp>
-
-#include <iostream>
+#include "Game/Game.hpp"
 
 int main()
 {

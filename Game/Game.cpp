@@ -1,7 +1,6 @@
 #include "Game.hpp"
 
-#include "Image.hpp"
-#include "Circle.hpp"
+#include "../Image/Image.hpp"
 
 #include <iostream>
 

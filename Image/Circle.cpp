@@ -1,7 +1,5 @@
 #include "Circle.hpp"
 
-#include "iostream"
-
 int Circle::CalcDiam() const
 {
     return 1 << (Image::SIZEPOWER - this->depth);

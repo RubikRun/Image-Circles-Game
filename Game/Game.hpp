@@ -2,8 +2,8 @@
 
 #include <SFML/Graphics.hpp>
 
-#include "CircularSet.hpp"
-#include "Circle.hpp"
+#include "../CircularSet/CircularSet.hpp"
+#include "../Image/Circle.hpp"
 
 class Game
 {
