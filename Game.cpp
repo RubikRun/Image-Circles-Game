@@ -42,6 +42,11 @@ void Game::Run()
     }
 }
 
+Game::~Game()
+{
+    delete[] m_circleColors;
+}
+
 void Game::Update()
 {
     sf::Vector2i mouse = sf::Mouse::getPosition(m_window);

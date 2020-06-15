@@ -6,7 +6,7 @@ template <typename T, size_t S>
 class CircularSet
 {
     //An array with the set's elements
-    T *m_values;
+    T m_values[S];
     //The indecies of the first an the last element in the set
     int m_first, m_last;
 
@@ -14,7 +14,6 @@ class CircularSet
 
     CircularSet()
     {
-        m_values = new T[S];
         m_first = m_last = -1;
     }
 

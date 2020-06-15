@@ -15,6 +15,9 @@ class Game
     //Runs the game
     void Run();
 
+    //Frees the memory
+    ~Game();
+
   private:
 
     //The window where the game is rendered
